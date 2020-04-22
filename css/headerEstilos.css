@@ -1,0 +1,61 @@
+.header{
+    height: 60px;
+}
+
+.header .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .icon-menu{
+    margin: 5px;
+    color: #fff;
+}
+
+.icon-menu{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: #33DC8C;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 45px;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+/*----------------------- Estilos del menú -----------------------*/
+.nav{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.menu{
+    width: 400px;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.menu-link{
+    display: block;
+    padding: 20px;
+    background: #33DC8C;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-link:hover, .select{
+    background: #fff;
+    color: #33DC8C;
+}
+
+.mostrar{
+    top: 60px;
+}

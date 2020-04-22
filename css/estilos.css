@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url(headerEstilos.css);
+@import url(bannerEstilos.css);
+@import url(bioEstilos.css);
+@import url(formacionEstilos.css);
+@import url(interesesEstilos.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.footer{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.formacion-titulo, .bio-titulo, .experiencia-titulo, .interes-titulo{
+    text-align: center;
+    font-size: 40px;
+}
+
+.social:hover{
+    cursor: pointer;
+    color: #337DDC;
+}
+
+.social{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    color: #5CFF97;
+    margin: 5px;
+}
+
+.content-exp{
+    text-align: justify;
+    padding: 15px;
+}
+
+/*-------------------Estilos resposive-------------------*/
+@media(min-width:550px){
+    .banner-titulo{
+        display: block;
+        font-size: 20px;
+    }
+}
+
+@media(min-width:720px){
+    .nav{
+        position: static;
+        width: auto;
+        margin-right: 45px;
+    }
+    .menu{
+        display: flex;
+    }
+    #btn-menu{
+        display: none;
+    }
+    .menu-link{
+        background: none;
+        padding: 10px;
+    }
+}

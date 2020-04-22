@@ -1,0 +1,47 @@
+.formacion{
+    background: #33A9DC;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.formacion-info{
+    display: inline-block;
+    width: 400px;
+    height: 450px;
+    background: #fff;
+    margin: 15px;
+    padding: 30px;
+    align-content: center;
+    border-radius: 10%;
+}
+
+.formacion-img{
+    margin: auto;
+}
+
+#escom{
+    width: 200px;
+    margin-bottom: 90px;
+}
+
+#voca, #secundaria, #primaria{
+    height: 180px;
+}
+
+.details{
+    text-decoration: none;
+    font-size: 30px;
+    color: #33DC8C;
+    transition: all 0.3s;
+}
+
+.details:hover{
+    font-size: 35px;
+    color: #33A9DC;
+}
+
+.nota{
+    text-align: justify;
+    font-size: 10px;
+}

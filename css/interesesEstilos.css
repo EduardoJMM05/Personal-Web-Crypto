@@ -1,0 +1,28 @@
+.hobbies{
+    background: #33A900;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.hobbie-item{
+    display: inline-block;
+    width: 400px;
+    height: 450px;
+    background: #fff;
+    margin: 15px;
+    padding: 30px;
+    align-content: center;
+    border-radius: 10%;
+}
+
+.hobbie-img{
+    margin: auto;
+}
+
+#tiro{
+    height: 250px;
+}
+
+.hobbie-txt{
+    text-align: justify;
+}

@@ -1,0 +1,33 @@
+.bio{
+    margin-bottom: 30px;
+}
+
+.bio-fecha{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -30px;
+}
+
+.bio-txt{
+    text-align: justify;
+    padding: 15px;
+}
+
+.docs{
+    display: inline-block;
+    margin: 10px;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    color: #33DC8C;
+    padding: 10px;
+    border: 3px solid #33DC8C;
+    border-radius: 7%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.docs:hover{
+    background: #33DC8C;
+    color: #000;
+}

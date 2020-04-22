@@ -1,0 +1,28 @@
+.banner{
+    margin-top: -60px;
+    position: relative;
+    z-index: -1000;
+    background: #CCC;
+}
+
+.banner-titulo{
+    display: none;
+}
+
+.banner-name{
+    color: #5CFF97;
+    font-size: 35px;
+}
+
+.banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+}
+
+.banner-txt{
+    text-align: justify;
+    color: #FFF;
+}
